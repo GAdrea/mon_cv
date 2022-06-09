@@ -1,0 +1,155 @@
+@media screen and (max-width: 1280px) {
+  #bloc_page {
+    width: auto;
+    height: auto;
+  }
+}
+.bloc_page {
+  width: auto;
+  height: auto;
+}
+
+@font-face {
+  font-family: "mapoliceperso";
+  src: url("Polices/Rubik/Rubik-Black.ttf");
+}
+
+* {
+  font-family: mapoliceperso;
+  background: rgb(159, 204, 225);
+}
+
+.infoperso {
+  font-size: 2em;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border: 10px solid darkblue;
+  border-radius: 50px;
+  overflow: auto;
+  position: relative;
+  display: none;
+}
+
+#maincontenu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.partie1 {
+  text-align: left;
+}
+
+.grandtitre {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3em;
+}
+
+.soustitre {
+  text-align: center;
+}
+
+.photocv {
+  text-align: center;
+  position: relative;
+}
+
+strong {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 5em;
+}
+
+.titresprincipaux {
+  color: rgb(4, 38, 128);
+  border: double black 10px;
+  border-radius: 200px;
+  text-align: center;
+  box-shadow: 5px 5px black;
+  background-color: white;
+  border-color: rgb(4, 39, 127);
+  margin: 80px;
+}
+/*box-shadow et text-shadow fonctionnent selon le même principe*/
+
+/*Pour les arrondis, on peut préciser les valeurs pour chaque coin dans l'ordre suivant: en haut à gauche, en haut à droite, en bas à droite et en bas à gauche*/
+
+.paragraphe1 {
+  font-size: 1.5em;
+  text-align: left;
+  border: solid black;
+}
+
+/*pour l'exemple font-family: Verdana, "Arial Black", Arial, Impact, sans-serif;*/
+
+.paragraphe2 {
+  font-size: 1.5em;
+  text-align: left;
+  border: solid black;
+}
+
+.paragraphe3 {
+  font-size: 1.5em;
+  text-align: left;
+  border: solid black;
+}
+
+.paragraphe4 {
+  font-size: 1.5em;
+  text-align: left;
+  border: solid black;
+}
+
+.ecole {
+  font-weight: bold;
+}
+
+.diplome {
+  color: darkred;
+}
+
+.date {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.entreprise {
+  font-weight: bold;
+}
+
+.langue {
+  font-weight: bold;
+}
+
+.compinfo {
+  font-weight: bold;
+}
+
+.autrecomp {
+  font-weight: bold;
+}
+
+.poste:hover {
+  font-weight: bold;
+  color: red;
+}
+
+.poste {
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: bold;
+}
